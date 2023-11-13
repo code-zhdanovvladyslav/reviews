@@ -20,4 +20,4 @@ Run mysql:
 1. **docker pull mysql**
 2. **docker images**
 3. copy **IMAGE ID** from mysql image
-4. **docker run --name mysql_container -p 30306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=reviews** IMAGE_ID_FROM_STEP_$
+4. **docker run --name mysql_container -p 30306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=reviews** IMAGE_ID_FROM_STEP_3
