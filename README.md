@@ -14,7 +14,8 @@ Run frontend from root:
 Run backend from root:
 1. **cd api**
 2. **npm i**
-3. **node server.js**
+3. **npx sequelize-cli db:migrate**
+4. **node server.js**
 
 Run mysql:
 1. **docker pull mysql**
