@@ -1,0 +1,33 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "reviews",
+    "host": "127.0.0.1",
+    "port": "30306",
+    "dialect": "mysql",
+    "sync": {
+      "force": true
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "reviews",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "sync": {
+      "force": true
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": "root",
+    "database": "reviews",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "sync": {
+      "force": true
+    }
+  }
+}
